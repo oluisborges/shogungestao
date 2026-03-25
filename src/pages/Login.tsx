@@ -35,8 +35,11 @@ export function Login() {
 
         <div className="relative z-10">
           {/* Logo */}
-          <div className="mb-16">
-            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-10 w-auto" />
+          <div className="flex items-center gap-3 mb-16">
+            <img src="/shogunlogo.png" alt="Shogun Gestão" className="w-10 h-10 object-contain flex-shrink-0" />
+            <span className="font-headline font-bold text-brand-green text-xl">
+              Shogun Gestão
+            </span>
           </div>
 
           {/* Headline */}
@@ -71,8 +74,11 @@ export function Login() {
       <div className="flex-1 bg-surface flex items-center justify-center p-6 lg:p-12">
         <div className="w-full max-w-sm">
           {/* Logo mobile */}
-          <div className="mb-8 lg:hidden">
-            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-9 w-auto" />
+          <div className="flex items-center gap-3 mb-8 lg:hidden">
+            <img src="/shogunlogo.png" alt="Shogun Gestão" className="w-9 h-9 object-contain flex-shrink-0" />
+            <span className="font-headline font-bold text-brand-dark text-lg">
+              Shogun Gestão
+            </span>
           </div>
 
           {/* Header */}
