@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ChefHat, TrendingUp } from 'lucide-react'
+import { TrendingUp } from 'lucide-react'
 import { Input } from '@/components/ui/Input'
 import { Button } from '@/components/ui/Button'
 
@@ -35,13 +35,8 @@ export function Login() {
 
         <div className="relative z-10">
           {/* Logo */}
-          <div className="flex items-center gap-3 mb-16">
-            <div className="w-10 h-10 bg-brand-green rounded-xl flex items-center justify-center">
-              <ChefHat className="w-6 h-6 text-brand-dark" />
-            </div>
-            <span className="font-headline font-bold text-brand-green text-xl">
-              Shogun Gestão
-            </span>
+          <div className="mb-16">
+            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-10 w-auto" />
           </div>
 
           {/* Headline */}
@@ -76,13 +71,8 @@ export function Login() {
       <div className="flex-1 bg-surface flex items-center justify-center p-6 lg:p-12">
         <div className="w-full max-w-sm">
           {/* Logo mobile */}
-          <div className="flex items-center gap-3 mb-8 lg:hidden">
-            <div className="w-9 h-9 bg-brand-dark rounded-xl flex items-center justify-center">
-              <ChefHat className="w-5 h-5 text-brand-green" />
-            </div>
-            <span className="font-headline font-bold text-brand-dark text-lg">
-              Shogun Gestão
-            </span>
+          <div className="mb-8 lg:hidden">
+            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-9 w-auto" />
           </div>
 
           {/* Header */}

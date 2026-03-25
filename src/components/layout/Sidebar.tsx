@@ -8,7 +8,6 @@ import {
   Wallet,
   Settings,
   LogOut,
-  ChefHat,
   X,
 } from 'lucide-react'
 
@@ -60,17 +59,11 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
       >
         {/* Logo */}
         <div className="flex items-center gap-3 px-4 py-5 border-b border-white/10">
-          <div className="w-8 h-8 bg-brand-green rounded-lg flex items-center justify-center flex-shrink-0">
-            <ChefHat className="w-5 h-5 text-brand-dark" />
-          </div>
-          <div className="xl:block md:hidden overflow-hidden">
-            <p className="font-headline font-bold text-brand-green leading-tight whitespace-nowrap">
-              Shogun Gestão
-            </p>
-            <p className="text-white/40 text-[10px] uppercase tracking-widest leading-tight">
-              delivery manager
-            </p>
-          </div>
+          <img
+            src="/shogunlogo.png"
+            alt="Shogun Gestão"
+            className="h-8 w-auto flex-shrink-0 xl:block md:hidden"
+          />
           {/* Botão fechar no mobile */}
           <button
             className="ml-auto text-white/50 hover:text-white md:hidden"
