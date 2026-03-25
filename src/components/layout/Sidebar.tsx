@@ -59,11 +59,13 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
       >
         {/* Logo */}
         <div className="flex items-center gap-3 px-4 py-5 border-b border-white/10">
-          <img
-            src="/shogunlogo.png"
-            alt="Shogun Gestão"
-            className="w-8 h-8 flex-shrink-0 object-contain"
-          />
+          <div className="w-8 h-8 flex-shrink-0 rounded-md bg-white flex items-center justify-center p-0.5">
+            <img
+              src="/shogunlogo.png"
+              alt="Shogun Gestão"
+              className="w-full h-full object-contain"
+            />
+          </div>
           <div className="xl:block md:hidden overflow-hidden">
             <p className="font-headline font-bold text-brand-green leading-tight whitespace-nowrap">
               Shogun Gestão
