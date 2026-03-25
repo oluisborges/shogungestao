@@ -36,7 +36,7 @@ export function Login() {
         <div className="relative z-10">
           {/* Logo */}
           <div className="mb-16">
-            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-10 w-auto" />
+            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-16 w-auto" />
           </div>
 
           {/* Headline */}
@@ -72,7 +72,7 @@ export function Login() {
         <div className="w-full max-w-sm">
           {/* Logo mobile */}
           <div className="mb-8 lg:hidden">
-            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-9 w-auto" />
+            <img src="/shogunlogo.png" alt="Shogun Gestão" className="h-14 w-auto" />
           </div>
 
           {/* Header */}
