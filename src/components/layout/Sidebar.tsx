@@ -62,8 +62,16 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
           <img
             src="/shogunlogo.png"
             alt="Shogun Gestão"
-            className="h-14 w-auto flex-shrink-0 xl:block md:hidden"
+            className="w-8 h-8 flex-shrink-0 object-contain"
           />
+          <div className="xl:block md:hidden overflow-hidden">
+            <p className="font-headline font-bold text-brand-green leading-tight whitespace-nowrap">
+              Shogun Gestão
+            </p>
+            <p className="text-white/40 text-[10px] uppercase tracking-widest leading-tight">
+              delivery manager
+            </p>
+          </div>
           {/* Botão fechar no mobile */}
           <button
             className="ml-auto text-white/50 hover:text-white md:hidden"
